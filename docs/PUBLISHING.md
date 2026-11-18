@@ -50,9 +50,10 @@ twine check dist/*
 twine upload dist/*
 ```
 
-Configure your PyPI upload token in twine's credential store. Keep the token
-out of shell history, command arguments, and this repo. The installed CLI
-has no dependencies.
+Upload with a PyPI API token scoped to `codex-usage-limits`, supplied through
+twine's credential store or `TWINE_PASSWORD`. Keep the token out of shell
+history, command arguments, and this repo. These are publishing-only tools;
+the installed CLI has no dependencies.
 
 Then anyone can:
 

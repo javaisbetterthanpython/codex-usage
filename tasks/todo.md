@@ -107,7 +107,7 @@ appends `(from the <source>)` when source != `endpoint`. All fail → distinct r
 - [x] README.md mirroring claude-usage (badges, demo GIF raw URL, sections, emojis)
 - [x] docs/HOW_THIS_WAS_BUILT.md, docs/PUBLISHING.md, docs/record_demo.py → docs/demo.gif (agg)
 - [x] Review diff, pytest, live run against the real endpoint once, build + twine check
-- [ ] Ask before: public GitHub repo, PyPI upload
+- [x] Ask before: public GitHub repo, PyPI upload
 
 ## Review
 
@@ -115,4 +115,4 @@ appends `(from the <source>)` when source != `endpoint`. All fail → distinct r
 - Review fix: a window without a duration, or an additional limit with no name, is skipped instead of failing the whole endpoint answer.
 - Live run against a Pro Lite account: weekly-only window, `--warn 0` exits 1, no identity fields in `--json` or the cache.
 - `python -m build` + `twine check` pass. Docs URLs resolve; no tokens/ids/emails in the tree.
-- Pending: user approval to create the public GitHub repo and upload to PyPI.
+- Published 2026-11-17: github.com/javaisbetterthanpython/codex-usage and PyPI codex-usage-limits 0.1.0.
