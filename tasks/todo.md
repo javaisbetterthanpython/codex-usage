@@ -1,6 +1,6 @@
 # codex-usage: Codex plan limits from the shell
 
-Sibling of `../claude-usage` (PyPI `claude-usage-limits`) and `../cursor-usage-cli`
+Sibling of `../claude-usage` (PyPI `claude-usage-limits`) and `../cursor-usage`
 (PyPI `cursor-usage`). **Mirror `../claude-usage` file for file**: layout, code style,
 README structure/emojis/badges, docs, demo recorder, tests. Only the Codex-specific
 protocol differs.
